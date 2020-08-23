@@ -25,7 +25,7 @@ class contactme(db.Model):
 @application.route('/')
 @application.route('/home')
 def home():
-    return render_template('index.html')
+    return render_template('ishan.html')
 #contact me page
 @application.route('/contactme')
 def contact_me():
